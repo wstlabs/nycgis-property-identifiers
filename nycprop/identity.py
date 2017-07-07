@@ -45,6 +45,16 @@ def is_valid_bin(bin_):
     a whole bunch of reasons."""
     return isinstance(bin_,int) and bin_ >= 1000000 and bin_ < 6000000
 
+def is_degenerate_bin(bbl):
+    """
+    A degenerate, or "million" BIN is an an integer that is "all zeros" aside from
+    the boro number, i.e. of the 5 integers (1000000,2000000,3000000,4000000,5000000).
+    These are different from BBLs in that they are still (as of Pluto 16v2) used as
+    (non-unique) identifiers for some 2,112 buildings; and are returned by Geoclient
+    for vacant lots.  So very often we will do searches on these BINs.
+    """
+    return bbl in (1000000,2000000,3000000,4000000,5000000)
+
 #
 # Yes, there's a lot of repetition in next 5 assertion functions, given that 
 # they all have basically the same error message. But structuring them this way 
