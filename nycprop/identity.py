@@ -15,6 +15,14 @@ def is_valid_bbl(bbl):
     a whole bunch of reasons."""
     return isinstance(bbl,int) and bbl >= 1000000000 and bbl < 6000000000
 
+def is_degenerate_bbl(bbl):
+    """
+    A BBL is degenerate if it is structurally valid, but "all zeros" (aside from
+    the boro number).  These BBLs do exist in city databases, but apparently only as
+    markers for deprecated records, so generally we refuse to do searches on them.
+    """
+    return bbl in (1000000000,2000000000,3000000000,4000000000,5000000000)
+
 def is_valid_boro(boro):
     return isinstance(boro,int) and boro >= 1 and boro < 6
 
