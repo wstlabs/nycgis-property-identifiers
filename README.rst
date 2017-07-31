@@ -41,7 +41,7 @@ In any case they're always 7 digits.
 
 **Further Info**
 Some links:
-- https://en.wikipedia.org/wiki/Borough,_Block_and_Lot
-- BINs are a bit more obscure.  Good luck finding info about them!
+* https://en.wikipedia.org/wiki/Borough,_Block_and_Lot
+* BINs are a bit more obscure.  Good luck finding info about them!
 
 
