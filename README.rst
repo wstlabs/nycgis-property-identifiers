@@ -47,9 +47,7 @@ non-degenerate BIN).
 Finally, there can be several buildings (hence, BINs) to a single taxlot (and some
 taxlots have many hundreds of buildings).  And occasionally you'll see large buildings 
 (typically apartment buildings) that have several internal components, each with its 
-own BIN; eg. London Terrace::
-
-    http://lookup.heatseek.org/taxlot/1007210007
+own BIN (e.g. London Terrace, at 415 West 23rd in Manhattan).
 
 In any case they're always 7 digits.   
 
