@@ -34,7 +34,7 @@ foreign keys in many city databases (even though strictly speaking they're "brok
 as proper database keys, due to their non-uniqueness).  But this is actually OK 
 (or OK enough) in practice, because in context they're usually used in association
 with a BBL; so as a composite key what the degenerate BIN means is "the building on
-this lot" or "the *other* building on this lot (besides the one with a 
+this lot" or "the *other* building on this lot" (besides the one with a 
 non-degenerate BIN).  
 
 In any case they're always 7 digits.  
