@@ -20,11 +20,11 @@ condominium unit, and something something more abstract like an air rights parce
 It's always a 10-digit number, and the first number corresponds to the "borough number"
 (1 for Manhattan; 2-5 for the others, in alphabetical order).
 
-And from there, it gets more complicated: lots get "de-mapped" and seem to disappear
-from the city's tax maps (and from it's geocoding API) even though people still have 
-mortgages on them (or they're still linked to other records).  And when properties
-go condo, a new magical "bank" BBL (with a special lot number always in the range 
-7501-7569) gets assigned (but this assignation only goes out to some databases;
+And from there, it gets more complicated: lots get "de-mapped" and start to disappear 
+from some of the city's maps and databases (and from its geocoding API) even though 
+people still have mortgages on them (or they're still linked to other records).  
+And when properties go condo, a new magical "bank" BBL (with a special lot number always 
+in the range 7501-7569) gets assigned (but this assignation only goes out to some databases;
 others still keep tracking the now de-mapped, "physical" lot number).
 
 **BIN**
