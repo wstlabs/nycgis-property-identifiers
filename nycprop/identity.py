@@ -7,7 +7,7 @@ all in one place.
 """
 
 def is_valid_bbl(bbl):
-    """Determins whether the given :bbl is structurally valid, meaning simply:
+    """Determines whether the given :bbl is structurally valid, meaning simply:
     an integer 10 digits in length, starting with digits 1-5.  The intent is simply
     to filter outright 'junk' BBLs that can't possibly have a valid interpretation,
     and would basically never occur in the city's databases.  Keep in mind though
@@ -36,7 +36,7 @@ def is_valid_qblock(qblock):
     return isinstance(qblock,int) and qblock >= 100000 and qblock < 600000
 
 def is_valid_bin(bin_):
-    """Determins whether the given :bin is structurally valid, meaning simply:
+    """Determines whether the given :bin is structurally valid, meaning simply:
     an integer 7 digits in length, starting with digits 1-5.  As with the method
     of a similar name that determines whether a BBL is 'valid', the intent is
     simply to identify 'junk' BINs that can't possibly have a valid interpretation,
