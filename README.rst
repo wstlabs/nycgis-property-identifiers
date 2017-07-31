@@ -44,7 +44,14 @@ with a BBL; so as a composite key what the degenerate BIN means is "the building
 this lot" or "the *other* building on this lot" (besides the one with a 
 non-degenerate BIN).  
 
-In any case they're always 7 digits. 
+Finally, there can be several buildings (hence, BINs) to a single taxlot (and some
+taxlots have many hundreds of buildings).  And occasionally you'll see large buildings 
+(typically apartment buildings) that have several internal components, each with its 
+own BIN; eg. London Terrace::
+
+    http://lookup.heatseek.org/taxlot/1007210007
+
+In any case they're always 7 digits.   
 
 **Further Info**
 
