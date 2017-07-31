@@ -16,7 +16,7 @@ both have certain quirks and caveats.
 
 The BBL (or "Borough, Block, Lot") number refers to a *tax parcel*, which is usually 
 an actual, physical lot (in the property's block-and-lot system); but sometimes a 
-condominium unit, and something something more abstract like an "air rights parcel".
+condominium unit, and something something more abstract like an air rights parcel.
 It's always a 10-digit number, and the first number corresponds to the "borough number"
 (1 for Manhattan; 2-5 for the others, in alphabetical order).
 
