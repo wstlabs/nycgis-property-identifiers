@@ -29,8 +29,8 @@ others still keep tracking the now de-mapped, "physical" lot number).
 
 **BIN**
 
-The BIN (Building Identification Number) is just that, a numeric identifier for a 
-single building.  Except when it isn't: there are some 2k+ duplicate (or n-to-1) BINs
+The BIN (Building Identification Number) is just that, a unique numeric identifier 
+for a single building.  Except when it isn't: there are some 2k+ duplicate (or n-to-1) BINs
 that are assigned to multiple buildings (sometimes on completely different lots); and 
 some 20k+ buildings don't have proper BINs at all, but are assigned what we call a 
 "degenerate" BIN (and what others call a "million" BIN), which have all zeros except 
