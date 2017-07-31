@@ -139,7 +139,7 @@ def _make_bbl_with_qblock(qblock,lot):
     assert_valid_lot(lot)
     return qblock * 10000 + lot
 
-_bblpat = re.compile('^\d{9}$')
+_bblpat = re.compile('^\d{10}$')
 def cast_bbl(s):
     if isinstance(s,str) and re.match(_bblpat,s):
         n = int(s)
