@@ -44,7 +44,7 @@ with a BBL; so as a composite key what the degenerate BIN means is "the building
 this lot" or "the *other* building on this lot" (besides the one with a 
 non-degenerate BIN).  
 
-In any case they're always 7 digits.  
+In any case they're always 7 digits. 
 
 **Further Info**
 
